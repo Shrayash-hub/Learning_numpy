@@ -51,6 +51,8 @@ matrix = np.arange(6).reshape(2, 3) # Shape (2, 3)
 vector = np.array([10, 20, 30])      # Shape (3,)
 
 result = matrix + vector
+# [[0 1 2]    +    [10 20 30]
+# [3 4 5]]         [10 20 30]
 print(result)
 # [[10 21 32]
 #  [13 24 35]]
